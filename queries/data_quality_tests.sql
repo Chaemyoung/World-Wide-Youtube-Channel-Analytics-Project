@@ -71,8 +71,9 @@ ORDER BY Rank ASC
 SELECT 
     Rank,
 	Channel_Name,
+	ISNULL(Category, 'Unknown') AS Category,
 	CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Subscribers_Num, LEN(Subscribers_Num) - 1)) * 1000000 AS BIGINT)  AS Subscribers,
-	Country,
+	ISNULL(Country, 'Unknown') AS Country,
 	CASE
 		WHEN RIGHT(Average_Views, 1) = 'M' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Views, LEN(Average_Views) - 1)) * 1000000 AS BIGINT)
 		WHEN RIGHT(Average_Views, 1) = 'K' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Views, LEN(Average_Views) - 1)) * 1000 AS BIGINT)
@@ -83,7 +84,7 @@ SELECT
 		WHEN RIGHT(Average_Likes, 1) = 'K' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Likes, LEN(Average_Likes) - 1)) * 1000 AS BIGINT)
 		ELSE TRY_CONVERT(BIGINT, Average_Likes)
 	END as Average_Likes,
-	CAST(Average_Comments AS BIGINT) as Average_Comments
+	CAST(Average_Comments AS BIGINT) AS Average_Comments
 FROM 
     view_2024_top_worldwide_youtube_channel
 
