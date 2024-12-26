@@ -67,3 +67,39 @@ FROM view_2024_top_worldwide_youtube_channel
 GROUP BY Channel_Name, Rank
 HAVING COUNT(*) > 1
 ORDER BY Rank ASC
+
+SELECT 
+    Rank,
+	Channel_Name,
+	CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Subscribers_Num, LEN(Subscribers_Num) - 1)) * 1000000 AS BIGINT)  AS Subscribers,
+	Country,
+	CASE
+		WHEN RIGHT(Average_Views, 1) = 'M' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Views, LEN(Average_Views) - 1)) * 1000000 AS BIGINT)
+		WHEN RIGHT(Average_Views, 1) = 'K' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Views, LEN(Average_Views) - 1)) * 1000 AS BIGINT)
+		ELSE TRY_CONVERT(BIGINT, Average_Views)
+	END as Average_Views,
+	CASE
+		WHEN RIGHT(Average_Likes, 1) = 'M' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Likes, LEN(Average_Likes) - 1)) * 1000000 AS BIGINT)
+		WHEN RIGHT(Average_Likes, 1) = 'K' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Likes, LEN(Average_Likes) - 1)) * 1000 AS BIGINT)
+		ELSE TRY_CONVERT(BIGINT, Average_Likes)
+	END as Average_Likes,
+	CAST(Average_Comments AS BIGINT) as Average_Comments
+FROM 
+    view_2024_top_worldwide_youtube_channel
+
+
+/*
+
+Cast vs Convert
+
+Cast:
+	- Standard SQL function for converting data types.
+	- Works across different RDBMS (e.g., SQL Server, MySQL, PostgreSQL).
+	- Raises an error if the conversion fails.
+
+Convert:
+	- SQL Server-specific function for converting data types.
+	- Includes a style parameter for formatting conversions, especially for dates and numbers.
+	- SQL Server-specific, not portable to other databases.
+*/
+
