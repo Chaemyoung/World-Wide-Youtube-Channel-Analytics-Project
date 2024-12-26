@@ -68,6 +68,15 @@ GROUP BY Channel_Name, Rank
 HAVING COUNT(*) > 1
 ORDER BY Rank ASC
 
+
+
+-- Cleaned Data -- 
+
+WITH NoDuplicates AS (
+	SELECT DISTINCT *
+	FROM view_2024_top_worldwide_youtube_channel
+)
+
 SELECT 
     Rank,
 	Channel_Name,
@@ -86,7 +95,7 @@ SELECT
 	END as Average_Likes,
 	CAST(Average_Comments AS BIGINT) AS Average_Comments
 FROM 
-    view_2024_top_worldwide_youtube_channel
+    NoDuplicates
 
 
 /*
