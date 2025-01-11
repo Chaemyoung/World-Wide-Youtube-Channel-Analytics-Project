@@ -16,12 +16,12 @@ Column count - 8
 Data types
 
 Rank : Integer
-Channel_Name : VARCHAR
-Category : VARCHAR
-Subscribers_Num : VARCHAR
-Country : VARCHAR
-Average_Views : VARCHAR
-Average_Likes : VARCHAR
+Channel_Name : NVARCHAR
+Category : NVARCHAR
+Subscribers_Num : NVARCHAR
+Country : NVARCHAR
+Average_Views : NVARCHAR
+Average_Likes : NVARCHAR
 Average_Comments : FLOAT
 
 Duplicate count = 0
@@ -42,7 +42,7 @@ Test Results:
 */
 
 
-select TOP 1000 * 
+select distinct Channel_Name
 from view_2024_top_worldwide_youtube_channel
 
 
