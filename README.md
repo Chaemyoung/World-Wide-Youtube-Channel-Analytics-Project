@@ -32,3 +32,15 @@
 
 - To discover the top performing Worldwide Youtubers to form marketing collaborations throughout the year 2025.
 
+## User story
+
+As the Head of Marketing, I want to a dashboard to identify the top Youtubers in the world based on subscriber count videos uploaded and views accumulated, so that I can decide on which channels would be best to run marketing campaigns with to generate a good ROI.
+
+This dashboard should allow me to identify the top performing channels.
+
+The dashboard should include:
+- List the top Youtube channels by subscribers, videos and views.
+- Display key metrics (channel name, subscribers, videos, views, engagement ratios).
+- Be user-friendly and easy to filter/sort.
+- Use the most recent data possible.
+
