@@ -44,3 +44,16 @@ The dashboard should include:
 - Be user-friendly and easy to filter/sort.
 - Use the most recent data possible.
 
+# Data source
+
+Manager needs the top Youtubers in the world, and the key metrics needed include:
+- Subscriber count
+- Videos uploaded
+- Views
+- Average views
+- Subscriber engagement ratio
+- Views per subscriber
+
+- Where is the data coming from?
+The data is sourced from Kaggle (an CSV extract), [Click here to find it!](https://www.kaggle.com/datasets/shiivvvaam/top-youtuber-worldwide)
+
