@@ -57,3 +57,9 @@ Manager needs the top Youtubers in the world, and the key metrics needed include
 - Where is the data coming from?
 The data is sourced from Kaggle (an CSV extract), [Click here to find it!](https://www.kaggle.com/datasets/shiivvvaam/top-youtuber-worldwide)
 
+# Stages
+
+- Design
+- Development
+- Testing
+- Analysis
