@@ -63,3 +63,19 @@ The data is sourced from Kaggle (an CSV extract), [Click here to find it!](https
 - Development
 - Testing
 - Analysis
+
+
+# Design 
+
+## Dashboard components required
+To understand what it should contain, we need to figure out what questions we need the dashboard to answer:
+
+1. Who are the top 10 Youtubers with the most subscribers?
+2. Which category of the channels have the most subscribers?
+3. Which 10 channel have the hightest average views?
+4. What is the engagement rate of a channel?
+5. Which category of the channels have the most subscribers?
+6. In which countries is each channel active?
+
+For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
+
