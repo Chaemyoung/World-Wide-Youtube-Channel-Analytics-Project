@@ -79,3 +79,11 @@ To understand what it should contain, we need to figure out what questions we ne
 
 For now, these are some of the questions we need to answer, this may change as we progress down our analysis.
 
+## Dashboard
+
+| Tool | Purpose |
+| Excel | Exploring the data |
+| MS SQL Sever | Cleaning, testing, and analyzing the data |
+| Power BI | Visualizing the data via interactive dashboards |
+| GitHub | Hosting the project documentation and version control |
+
