@@ -103,3 +103,14 @@ This is the general approach to creating a solution from start to finish.
 8. Write the documentation + commentary
 9. Publish the data to GitHub
 
+## Data exploration notes
+
+This is the stage where you scan through the data, errors, inconsistencies, bugs, weird, corrupted characters and etc.
+
+- The initial observations with the dataset.
+
+1. There are at least 7 columns that contain the data we need for this analysis, which tells we have everything we need from the file without needing to contact the client for any more data.
+2. Last 45 rows were the duplicated rows that are already appeared. Which we need to remove duplicate rows.
+3. The columns for average_views, average_likes and average_comments are stored in NVARCHAR with metric prefixes. e.g. 10K, 25M. Which we need to convert them into the numeric value. 
+4. In the Category column, there were some NULL values. We need to replace NULL into 'Unkown' to indicate the missing category fields for this analysis.
+
