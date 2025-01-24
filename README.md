@@ -114,3 +114,38 @@ This is the stage where you scan through the data, errors, inconsistencies, bugs
 3. The columns for average_views, average_likes and average_comments are stored in NVARCHAR with metric prefixes. e.g. 10K, 25M. Which we need to convert them into the numeric value. 
 4. In the Category column, there were some NULL values. We need to replace NULL into 'Unkown' to indicate the missing category fields for this analysis.
 
+## Data cleaning
+The aim is to refine our dataset to ensure it is structured and ready for analysis.
+
+The cleaned data should meet the following criteria and constraints:
+- Only relevant columns should be retained.
+- All data types should be appropriate for the contents of each column.
+- No column should contain NULL values, indicating complete data for all records.
+
+Below is a table outlining constraints on our cleaned dataset:
+
+| Property          | Description |
+| ----------------- | ----------- |
+| Number of Rows    | 1000        |
+| Number of Columns | 8           |
+
+And here is a tabular representation of the expected schema for the clean data:
+
+| Column Name      | Data Type | Nullable |
+| ---------------- | --------- | -------- |
+| Rank             | INTEGER   | NO       |
+| Channel_Name     | NVARCHAR  | NO       |
+| Category         | NVARCHAR  | NO       |
+| Subscribers_Num  | BIGINT    | NO       |
+| Country          | NVARCHAR  | NO       |
+| Average_Views    | BIGINT    | NO       |
+| Average_Likes    | BIGINT    | NO       |
+| Average_Comments | BIGINT    | NO       |
+
+- The steps are needed to clean and shape the data into the desired format
+
+1. Exclude any duplicate rows.
+2. Remove unnecessary columns by only selecting the ones we need.
+3. Replace NULL values with a default value.
+4. Convert the data type into a appropriate one.
+
