@@ -149,3 +149,47 @@ And here is a tabular representation of the expected schema for the clean data:
 3. Replace NULL values with a default value.
 4. Convert the data type into a appropriate one.
 
+### Transform the data
+
+```sql
+/*
+# 1. Create a CTE to exclude duplicate rows.
+# 2. Select rows needed.
+# 3. Replace NULL value with 'Unkown'.
+# 4. Convert the data type into a appropriate one for analysis.
+*/
+
+-- 1.
+WITH NoDuplicates AS (
+	SELECT DISTINCT *
+	FROM view_2024_top_worldwide_youtube_channel
+)
+
+-- 2.
+SELECT 
+    Rank,
+	Channel_Name,
+
+    -- 3.
+	ISNULL(Category, 'Unknown') AS Category,
+	ISNULL(Country, 'Unknown') AS Country,
+
+
+    -- 4.
+	CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Subscribers_Num, LEN(Subscribers_Num) - 1)) * 1000000 AS BIGINT)  AS Subscribers,
+	CASE
+		WHEN RIGHT(Average_Views, 1) = 'M' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Views, LEN(Average_Views) - 1)) * 1000000 AS BIGINT)
+		WHEN RIGHT(Average_Views, 1) = 'K' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Views, LEN(Average_Views) - 1)) * 1000 AS BIGINT)
+		ELSE TRY_CONVERT(BIGINT, Average_Views)
+	END as Average_Views,
+	CASE
+		WHEN RIGHT(Average_Likes, 1) = 'M' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Likes, LEN(Average_Likes) - 1)) * 1000000 AS BIGINT)
+		WHEN RIGHT(Average_Likes, 1) = 'K' THEN CAST(TRY_CONVERT(DECIMAL(10, 2), LEFT(Average_Likes, LEN(Average_Likes) - 1)) * 1000 AS BIGINT)
+		ELSE TRY_CONVERT(BIGINT, Average_Likes)
+	END as Average_Likes,
+	CAST(Average_Comments AS BIGINT) AS Average_Comments
+FROM 
+    NoDuplicates
+
+```
+
