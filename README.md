@@ -208,4 +208,6 @@ Here are the data quality tests conducted:
 
 SELECT COUNT(*) AS num_of_row 
 FROM view_2024_top_worldwide_youtube_channel
-`
+```
+### Output
+![Row count check](assets/images/1_row_count_check.png)
