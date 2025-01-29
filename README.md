@@ -211,3 +211,19 @@ FROM view_2024_top_worldwide_youtube_channel
 ```
 ### Output
 ![Row count check](assets/images/1_row_count_check.png)
+
+
+## Column count check
+### SQL query
+```sql
+/*
+# Count the total number of columns (or fields) are in the SQL view.
+*/
+
+SELECT COUNT(*) as num_of_column
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_2024_top_worldwide_youtube_channel'
+```
+
+### Output
+![Column count check](assets/images/2_column_count_check.png)
