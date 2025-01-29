@@ -227,3 +227,18 @@ WHERE TABLE_NAME = 'view_2024_top_worldwide_youtube_channel'
 
 ### Output
 ![Column count check](assets/images/2_column_count_check.png)
+
+
+## Data type check
+### SQL query
+```sql 
+/*
+# Check the data types of each column from the view by checking the INFORMATION SCHEMA view.
+*/
+
+SELECT COLUMN_NAME, DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'view_2024_top_worldwide_youtube_channel'
+```
+
+
