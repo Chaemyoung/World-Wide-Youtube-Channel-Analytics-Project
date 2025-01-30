@@ -265,3 +265,15 @@ HAVING COUNT(*) > 1
 -- 4. 
 ORDER BY Rank ASC
 ```
+
+
+# Visualization
+
+## Results
+
+- The dashboard
+
+![Power BI Dashboard](images/top_worldwide_youtubers_2024.png)
+
+This shows the Top Worldwide Youtuvers in 2024.
+
