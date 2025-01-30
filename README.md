@@ -242,3 +242,26 @@ WHERE TABLE_NAME = 'view_2024_top_worldwide_youtube_channel'
 ```
 
 
+## Duplicate count check
+### SQL query
+```sql 
+/*
+# 1. Check for duplicate rows in the view.
+# 2. Group by the channel name.
+# 3. Filter for groups with more than one row.
+# 4. Order the data by Rank in ascending order.
+*/
+
+-- 1.
+SELECT Rank, Channel_Name, Count(*) as duplicate_count
+FROM view_2024_top_worldwide_youtube_channel
+
+-- 2.
+GROUP BY Channel_Name, Rank
+
+-- 3.
+HAVING COUNT(*) > 1
+
+-- 4. 
+ORDER BY Rank ASC
+```
