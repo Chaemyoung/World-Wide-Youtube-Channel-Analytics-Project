@@ -289,3 +289,19 @@ DIVIDE(
 ```
 
 
+# Analysis
+
+## Findings
+
+- What we found.
+
+For this analysis, we're going to focus on the questions below to get the information we need for our marketing client -
+
+Here are the key questions we need to answer for our marketing client:
+1. Who are the top 10 Youtubers with the most subscribers?
+2. Which category of the channels have the most subscribers?
+3. Which 10 channel have the hightest average views?
+4. What is the engagement rate of a channel?
+5. Which category of the channels have the most subscribers?
+6. In which countries is each channel active?
+
