@@ -277,3 +277,15 @@ ORDER BY Rank ASC
 
 This shows the Top Worldwide Youtuvers in 2024.
 
+## DAX Measures
+
+### EngagementRatio
+```sql
+EngagementRatio = 
+DIVIDE(
+    SUM('Cleaned_2024_top_worldwide_youtube_channel'[Average_Likes]) + SUM('Cleaned_2024_top_worldwide_youtube_channel'[Average_Comments]),
+    SUM('Cleaned_2024_top_worldwide_youtube_channel'[Subscribers])
+)
+```
+
+
