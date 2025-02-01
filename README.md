@@ -305,3 +305,17 @@ Here are the key questions we need to answer for our marketing client:
 5. Which category of the channels have the most subscribers?
 6. In which countries is each channel active?
 
+
+### 1. Who are the top 10 Youtubers with the most subscribers?
+| Rank | Channel_Name                | Subscribers |
+|------|----------------------------|--------------|
+| 1    | T-Series                   | 258,400,000  |
+| 2    | MrBeast                    | 236,100,000  |
+| 3    | Cocomelon - Nursery Rhymes | 171,400,000  |
+| 4    | SET India                  | 167,100,000  |
+| 5    | ✿ Kids Diana Show          | 118,500,000 |
+| 6    | Like Nastya                | 112,600,000  |
+| 7    | PewDiePie                  | 111,600,000  |
+| 8    | Vlad and Niki              | 109,600,000  |
+| 9    | Zee Music Company          | 104,500,000  |
+| 10   | WWE                        | 99,000,000   |
