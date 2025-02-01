@@ -319,3 +319,19 @@ Here are the key questions we need to answer for our marketing client:
 | 8    | Vlad and Niki              | 109,600,000  |
 | 9    | Zee Music Company          | 104,500,000  |
 | 10   | WWE                        | 99,000,000   |
+
+
+### 2. Which category of the channels have the most subscribers?
+| Rank | Channel_Name                | Category      |
+|------|-----------------------------|---------------|
+| 1    | T-Series                    | Music & Dance |
+| 2    | MrBeast                     | Video games   |
+| 3    | Cocomelon - Nursery Rhymes  | Education     |
+| 4    | SET India                   | Unknown       |
+| 5    | ✿ Kids Diana Show          | Animation     |
+| 6    | Like Nastya                 | Toys          |
+| 7    | PewDiePie                   | Movies        |
+| 8    | Vlad and Niki               | Animation     |
+| 9    | Zee Music Company           | Music & Dance |
+| 10   | WWE                         | Video games   | 
+
