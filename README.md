@@ -350,3 +350,17 @@ Here are the key questions we need to answer for our marketing client:
 | 9     | Zee Music Company           | 38,000        |
 | 10    | SET India                   | 27,900        |
 
+
+### 4. Which 10 Category have the most number of total subscribers group by category?
+| Rank | Category         | Total_Subscribers_By_Category |
+|------|------------------|-------------------------------|
+| 1    | Animation        | 2,833,900,000                 |
+| 2    | Education        | 625,600,000                   |
+| 3    | Daily vlogs      | 612,200,000                   |
+| 4    | DIY & Life Hacks | 48,700,000                    |
+| 5    | Design/art       | 36,500,000                    |
+| 6    | Autos & Vehicles | 29,800,000                    |
+| 7    | ASMR             | 29,100,000                    |
+| 8    | Beauty           | 23,900,000                    |
+| 9    | Animals & Pets   | 15,400,000                    |
+| 10   | Fashion          | 14,100,000                    |
