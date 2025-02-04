@@ -335,3 +335,18 @@ Here are the key questions we need to answer for our marketing client:
 | 9    | Zee Music Company           | Music & Dance |
 | 10   | WWE                         | Video games   | 
 
+
+### 3. Which 10 channel have the highest average views?
+| Rank  | Channel_Name                | Average_Views |
+|-------|-----------------------------|---------------|
+| 1     | MrBeast                     | 104,000,000   |
+| 2     | Vlad and Niki               | 5,800,000     |
+| 3     | Cocomelon - Nursery Rhymes  | 5,100,000     |
+| 4     | ✿ Kids Diana Show          | 5,100,000     |
+| 5     | Like Nastya                 | 3,400,000     |
+| 6     | PewDiePie                   | 1,700,000     |
+| 7     | WWE                         | 182,900       | 
+| 8     | T-Series                    | 135,200       |
+| 9     | Zee Music Company           | 38,000        |
+| 10    | SET India                   | 27,900        |
+
