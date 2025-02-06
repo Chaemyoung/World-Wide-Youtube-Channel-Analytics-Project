@@ -379,3 +379,11 @@ Here are the key questions we need to answer for our marketing client:
 | 9    | Colombia      | 293,800,000                  |
 | 10   | Philippines   | 284,200,000                  |
 | 11   | Pakistan      | 195,100,000                  |
+
+### Notes
+
+For this analysis, we'll prioritize analysing the metrics that are important in generating the expected ROI for our marketing client, which are the YouTube channels with the most:
+
+- Number of subscribers
+- Average views per video
+
