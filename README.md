@@ -364,3 +364,18 @@ Here are the key questions we need to answer for our marketing client:
 | 8    | Beauty           | 23,900,000                    |
 | 9    | Animals & Pets   | 15,400,000                    |
 | 10   | Fashion          | 14,100,000                    |
+
+### 5. Which 10 Country have the most number of total subscribers?
+| Rank | Country       | Total_Subscribers_By_Country |
+|------|---------------|------------------------------|
+| 1    | India         | 6,349,600,000                |
+| 2    | United States | 6,033,200,000                |
+| 3    | Unknown       | 4,491,300,000                |
+| 4    | Brazil        | 1,252,400,000                |
+| 5    | Mexico        | 1,236,700,000                |
+| 6    | Indonesia     | 814,800,000                  |
+| 7    | Russia        | 449,000,000                  |
+| 8    | Thailand      | 370,200,000                  |
+| 9    | Colombia      | 293,800,000                  |
+| 10   | Philippines   | 284,200,000                  |
+| 11   | Pakistan      | 195,100,000                  |
