@@ -404,3 +404,13 @@ a. T-Series
 - Potential revenue per video = 2,704 x $5 = $13,520
 - Campaign cost (one-time fee) = $50,000
 - **Net Profit = $13,520 - $50,000 = -36,480**
+
+
+b. MrBeast
+
+- Average views per video = 104,000,000 
+- Product cost = $5
+- Potential units sold per video =  104,000,000 x 2% conversion rate =   2,080,000 units sold
+- Potential revenue per video = 2,080,000 x $5 = $10,400,000 
+- Campaign cost (one-time fee) = $50,000
+- **Net Profit = $10,400,000 - $50,000 = $10,350,000**
