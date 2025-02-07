@@ -387,3 +387,20 @@ For this analysis, we'll prioritize analysing the metrics that are important in 
 - Number of subscribers
 - Average views per video
 
+
+## Validation
+
+### 1. Youtubers with the most subscribers
+
+#### Calculation breakdown
+
+Campaign idea = product placement
+
+a. T-Series
+
+- Average views per video =  135,200 
+- Product cost = $5
+- Potential units sold per video = 135,200 x 2% conversion rate =  2,704 units sold
+- Potential revenue per video = 2,704 x $5 = $13,520
+- Campaign cost (one-time fee) = $50,000
+- **Net Profit = $13,520 - $50,000 = -36,480**
