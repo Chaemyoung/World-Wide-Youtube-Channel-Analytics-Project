@@ -414,3 +414,17 @@ b. MrBeast
 - Potential revenue per video = 2,080,000 x $5 = $10,400,000 
 - Campaign cost (one-time fee) = $50,000
 - **Net Profit = $10,400,000 - $50,000 = $10,350,000**
+
+
+c. Cocomelon - Nursery Rhymes
+
+- Average views per video =  5,100,000 
+- Product cost = $5
+- Potential units sold per video =  5,100,000 x 2% conversion rate =    102,000 units sold
+- Potential revenue per video = 102,000 x $5 = $510,000 
+- Campaign cost (one-time fee) = $50,000
+- **Net Profit = $510,000 - $50,000 = $460,000**
+
+
+**Best option from category: MrBeast**
+
