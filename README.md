@@ -488,3 +488,37 @@ ORDER BY net_profit DESC
 
 ![Most subsc][images/youtubers_with_the_most_subs.png]
 
+
+### 2. Youtubers with the most average views
+
+#### Calculation breakdown
+
+Campaign idea = Influencer marketing
+
+a. MrBeast
+
+- Average views per video = 104,000,000
+- Product cost = $5
+- Potential units sold per video = 104,000,000 x 2% convertion rate = 2,080,000
+- Potential revenue per video = 2,080,000 x $5 = $10,400,000
+- Campaign cost (3-month contract) = $130,000
+- **Net profit = $10,400,000 - $130,000 = $10,270,000**
+
+
+b. Bizarrap
+
+- Average views per video = 44,500,000
+- Product cost = $5
+- Potential units sold per video = 44,500,000 x 2% convertion rate = 890,000
+- Potential revenue per video = 890,000 x $5 = $4,450,000
+- Campaign cost (3-month contract) = $130,000
+- **Net profit = $4,450,000 - $130,000 = $4,320,000**
+
+c. _vector_
+
+- Average views per video = 15,300,000
+- Product cost = $5
+- Potential units sold per video = 15,300,000 x 2% convertion rate = 306,000
+- Potential revenue per video = 306,000 x $5 = $1,530,000
+- Campaign cost (3-month contract) = $1,530,000
+- **Net profit = $1,530,000 - $130,000 = $1,400,000**
