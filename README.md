@@ -482,3 +482,9 @@ WHERE Channel_Name IN ('T-Series', 'MrBeast', 'Cocomelon - Nursery Rhymes')
 -- 5.
 ORDER BY net_profit DESC
 ```
+
+
+#### Output
+
+![Most subsc][images/youtubers_with_the_most_subs.png]
+
