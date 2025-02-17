@@ -525,3 +525,7 @@ c. _vector_
 
 
 ** Best option from category: MrBeast
+
+
+Campaign idea = Influencer marketing
+
