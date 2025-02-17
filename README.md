@@ -522,3 +522,6 @@ c. _vector_
 - Potential revenue per video = 306,000 x $5 = $1,530,000
 - Campaign cost (3-month contract) = $1,530,000
 - **Net profit = $1,530,000 - $130,000 = $1,400,000**
+
+
+** Best option from category: MrBeast
